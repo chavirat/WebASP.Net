@@ -1,0 +1,128 @@
+@@ -0,0 +1,128 @@
+﻿<!DOCTYPE html>
+<html xmlns="http://www.w3.org/1999/xhtml">
+<head>
+    <title>Html form</title>
+    <link href="Style/StyleSheetA4.css" rel="stylesheet" />
+</head>
+<body>
+        <div id="wrapper">
+            <div id="banner">
+                <br />
+                Mortgage Planner &nbsp;
+            </div>
+            <div id="menu">
+                <a href="A4PP.aspx">ASP.NET version</a>
+            </div>
+
+            <div id="content_area1">
+                <table>
+                    <tr>
+                        <td style="width: 200px; vertical-align: top;">
+                            <strong>Choose your option below:</strong><br />
+                        </td>
+                        <td style="width: 300px; vertical-align: top;">
+                            Selling Price:
+                        </td>
+                        <td style="width: 400px; vertical-align: top;">
+                            <input id="TextboxSellingPrice" type="text" />$
+                        </td>
+                    </tr>
+                    <tr>
+                        <td>
+                            &nbsp;
+                            <input id="RadioSellingPrice" type="radio" />Selling Price
+                        </td>
+                        <td>
+                            Down Payment:
+                        </td>
+                        <td>
+                            <input id="TextboxDownPayment" type="text" />$
+                        </td>
+                    </tr>
+                    <tr>
+                        <td>
+                            &nbsp;
+                            <input id="RadioDownPayment" type="radio" />Down Payment
+                        </td>
+                        <td>
+                            Annual Interate Rate:
+                        </td>
+                        <td>
+                            <input id="TextboxAnnualIntRate" type="text" />
+                        </td>
+                    </tr>
+                    <tr>
+                        <td>
+                            &nbsp;
+                            <input id="RadioPayment" type="radio" checked="checked" />Payment per Period
+                        </td>
+                        <td>
+                            Number of years:
+                        </td>
+                        <td>
+                            <input id="TextboxYear" type="text" />
+                        </td>
+                    </tr>
+                    <tr>
+                        <td>
+                            &nbsp;
+                        </td>
+                        <td>
+                            Period per year:
+                        </td>
+                        <td>
+                            <select id="Selectperiod" name="DDperiod">
+                                <option>Montly</option>
+                                <option>Semi-Montly</option>
+                                <option>Weekly</option>
+                            </select>
+                        </td>
+                    </tr>
+                    <tr>
+                        <td>
+                            &nbsp;
+                        </td>
+                        <td>
+                            &nbsp;
+                        </td>
+                        <td>
+                            <input id="ButtonCalculate" type="button" value="Calculate" />
+                            <input id="ButtonClear" type="button" value="Clear" />
+                            <input id="CheckboxCumulative" type="checkbox" />Payment Schedule
+                        </td>
+                    </tr>
+                    <tr>
+                        <td>&nbsp;</td>
+                        <td colspan="2" style="text-align:center; color:#FFFFFF; background-color:#0072BB;">
+                            Result
+                        </td>
+                    </tr>
+                    <tr>
+                        <td>
+                            &nbsp;
+                        </td>
+                        <td>
+                            Loan Amount:
+                        </td>
+                        <td>
+                            <input id="TextboxLoanAmt" type="text" />$
+                        </td>
+                    </tr>
+                    <tr>
+                        <td>
+                            &nbsp;
+                        </td>
+                        <td>
+                            Payment per Peiod:
+                        </td>
+                        <td>
+                            <input id="TextboxPayment" type="text" />$
+                        </td>
+                    </tr>
+                </table>
+            </div>
+        </div>
+</body>
+</html>
+
