@@ -1,0 +1,46 @@
+@@ -0,0 +1,46 @@
+﻿<%@ Master Language="C#" AutoEventWireup="true" CodeFile="MasterA4.master.cs" Inherits="MasterA4" %>
+
+<!DOCTYPE html>
+
+<html xmlns="http://www.w3.org/1999/xhtml">
+<head runat="server">
+    <title>Mortgage Planner</title>
+    <asp:ContentPlaceHolder ID="head" runat="server">
+    </asp:ContentPlaceHolder>
+    <link href="Style/StyleSheetA4.css" rel="stylesheet" />
+</head>
+<body>
+    <form id="form1" runat="server">
+        <div id="wrapper">
+            <div id="banner"><br />
+                Mortgage Planner &nbsp;
+            </div>
+            <div id="menu">
+                &nbsp;
+            </div>
+            <div id="content_area1">
+                <table>
+                    <tr>
+                        <td style="width:200px; vertical-align:top;">
+                            <strong>Choose your option below:</strong>
+                            <asp:RadioButtonList ID="RadioButtonList1" runat="server" OnSelectedIndexChanged="RadioButtonList1_SelectedIndexChanged" AutoPostBack="True">
+                                <asp:ListItem Value="1">Selling price</asp:ListItem>
+                                <asp:ListItem Value="2">Down Payment</asp:ListItem>
+                                <asp:ListItem Value="3">Payment per Period</asp:ListItem>
+                            </asp:RadioButtonList>
+                            
+                            <br />
+                            <br />
+                        </td>
+                        <td style="width:700px;">
+                            <asp:ContentPlaceHolder ID="Content" runat="server">
+                            </asp:ContentPlaceHolder>
+                        </td>
+                    </tr>
+                </table>
+            </div>
+        </div>      
+    </form>
+</body>
+</html>
