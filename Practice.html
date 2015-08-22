@@ -1,0 +1,68 @@
+@@ -0,0 +1,68 @@
+﻿<!DOCTYPE html>
+<html xmlns="http://www.w3.org/1999/xhtml">
+<head>
+    <title>Assignment 2: part 1</title>
+    <link href="Style/Practice.css" rel="stylesheet" type="text/css" />
+    <style>
+        p.embedded {
+            font-family: Tahoma;
+            font-size: 14pt;
+        }
+    </style>
+</head>
+<body>
+ <div style="font-family: Symbol;font-size: 12pt;line-height: 100%; clip:rect(auto,5%,auto,5%); ">
+     <div>
+         <p> this line uses the normal style from the external style sheet</p>
+         <p class="embedded"> this line uses the inline normal.override style</p>
+         <p style="font-family:Broadway; font-size:16pt; font-weight:lighter;"> this line changes the font and point size in the normal style from the external stylesheet</p>
+     </div>
+ </div>
+    <!--video & audio test-->
+    <div>
+        <video controls>
+            <source src="media/ChristinaPerri_AThousandYears.mp4" type="video/mp4">
+            Your browser does not support the video tag.
+        </video><br>
+        <audio controls>
+            <source src="media/rainingC.mp3" type="audio/mp3">
+            </audio>
+</div>
+    <!--video embeded from youtube test-->
+    <div>
+        <iframe width="560" height="315" src="//www.youtube.com/embed/egtgX7f-mOw?list=PL0F46D03EBF32DBBC" frameborder="0" allowfullscreen></iframe>
+    </div>
+
+    <!--contact form test-->
+    <div>
+        <label for='name'>Name<span class='required'>(required)</span></label>
+        <input type='text' name='name' placeholder='your name here' required />
+    </div>
+
+    <div>
+        <label for='tel'>Tel</label>
+        <input type='tel' name='tel' placeholder='your telephone here' />
+    </div>
+
+    <div>
+        <label for='email'>Email <span class='required'>(required)</span></label>
+        <input type='email' name='email' placeholder='you@yourdomain.com' required />
+    </div>
+
+    <div>
+        <label for='url'>Website</label>
+        <input type='url' name='website' placeholder='http://' />
+    </div>
+
+    <div>
+        <label for='message'>Message <span class='required'>(required)</span></label>
+        <textarea name='message' required></textarea>
+    </div>
+
+    <div>
+        <button type='submit'>Send Message</button>
+    </div>
+
+</body>
+</html>
