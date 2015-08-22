@@ -1,4 +1,3 @@
-@@ -0,0 +1,60 @@
 ﻿<%@ Page Language="C#" AutoEventWireup="true" CodeFile="A3home.aspx.cs" Inherits="A3home" %>
 
 <!DOCTYPE html>
@@ -6,7 +5,7 @@
 <html xmlns="http://www.w3.org/1999/xhtml">
 <head runat="server">
     <title>Welcome Home</title>
-    <link href="Style/StyleSheetA3-2.css" rel="stylesheet" />
+    <link href="Style/StyleSheetA3.css" rel="stylesheet" />
      <style>
         p.embedded {
             font-family: Tahoma;
