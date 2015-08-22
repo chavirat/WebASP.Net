@@ -1,0 +1,193 @@
+@@ -0,0 +1,193 @@
+﻿body
+{
+    font-family:Calibri, sans-serif;
+    font-size:12pt;
+    color: #051d54;
+    background-color:#304575;
+}
+p
+{
+   line-height: 30px;
+  
+}
+h2{
+    color: #7e6800; 
+}
+#wrapper
+{
+    width: 1000px;
+    background-color:#FFFFFF;
+    margin: 0 auto;
+    border: 5px solid #051d54;    
+}
+
+#banner
+{
+    background-image: url(../Assign3Images/sewing_machine.jpg);
+    background-size:auto;
+    background-repeat:no-repeat;
+    width: 900px;
+    height: 200px;
+    margin: auto;
+    font-size: 82px;
+    color:#051d54;
+    text-align: right;
+    text-shadow: 3px 3px #C0C0C0;
+}
+#menu
+{
+    width: 900px;
+    height: 40px;
+    margin: auto;
+    font-size:22px;
+    background-color:#c6ab75;
+}
+#menu a:link{
+    display:inline-block;
+    width:170px;
+    height:40px;
+    text-align:center;
+    color:#051d54;
+}
+#menu a:hover{
+    display:inline-block;
+    width:170px;
+    height:40px;
+    text-align:center;
+    color:#c6ab75;
+    background-color:#051d54;
+}
+#rightsidebar
+{
+    float: left;
+    width: 260px;
+    margin: 10px 40px 10px 10px;
+    padding: 10px;
+    border: 2px solid #C0C0C0;
+}
+#rightsidebar img{
+    display:block;
+    padding:5px;
+    border:1px solid #C0C0C0;
+}
+#rightsidebar ul{
+    list-style:none;
+}
+#rightsidebar a.menu:link{
+    display:block;
+    color:#051d54;
+    height:30px;
+    padding:5px;
+}
+#rightsidebar a.menu:hover{
+    display:block;
+    color:#c6ab75;
+    background-color:#051d54;
+    height:30px;
+    padding:5px;
+}
+#content_area
+{
+    float: left;
+    width: 580px;
+    margin: 10px 10px 10px 40px;
+    padding: 10px;
+}
+#content_area img{
+    width:auto;
+    margin: 5px;
+    display:block;
+    padding:5px;
+    background-color:#dedede;
+    border:1px solid #C0C0C0;
+    box-shadow:1px 1px 2px #000000;
+}
+#content_area figcaption{
+    text-align:center;
+    font-family:'Times New Roman',sans-serif;
+    font-style:italic;
+}
+#content_area img.imgLeft
+{
+    float: left;
+    margin: 10px 20px 10px 0px;
+}
+#content_area1
+{
+    float: left;
+    width: 900px;
+    margin: 10px 40px 20px 40px;
+    padding: 10px;
+    line-height: 30px;
+}
+#content_area1 img{
+    width:auto;
+    margin:auto;
+    display:block;
+    padding:5px;
+    background-color:#dedede;
+    border:1px solid #C0C0C0;
+    box-shadow:1px 1px 2px #000000;
+}
+#content_area1 figcaption{
+    text-align:center;
+    font-family:'Times New Roman',sans-serif;
+    font-style:italic;
+}
+#content_area1 img.imgLeft
+{
+    float: left;
+    margin: 10px 20px 10px 0px;
+}
+#footer
+{
+    clear: both;
+    width: 900px;
+    height: 30px;
+    margin: auto;
+    padding: 10px;   
+    border-top: 2px solid #C0C0C0; 
+}
+
+a:link {
+    color: #051d54;
+    text-decoration: none;
+}
+
+a:visited {
+    color: #051d54;
+    background-color: #FFFFFF;
+}
+
+a:hover {
+    color: #7e5400;
+    }
+
+a:active {
+    color: #051d54;
+    background-color: #000066;
+}
+.gallery {
+    margin:auto;
+    width: 800px;
+    text-align: center;
+}
+.gallery ul{
+    list-style:none;
+}
+.gallery li{
+    float:left;
+    margin:10px;
+}
+.gallery img{
+    display:block;
+    padding:5px;
+    background-color:#dedede;
+    border:1px solid #C0C0C0;
+    box-shadow:1px 1px 2px #000000;
+}
+.gallery img:hover{
+    background-color: #051d54;
+
+}
