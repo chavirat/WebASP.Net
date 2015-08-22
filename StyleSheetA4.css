@@ -1,0 +1,64 @@
+@@ -0,0 +1,64 @@
+﻿body
+{
+    font-family:Calibri, sans-serif;
+    font-size:12pt;
+    color: #051d54;
+    background-color:#FFFFFF;
+}
+#wrapper
+{
+    width: 1000px;
+    background-color:#FFFFFF;
+    margin: 0 auto; 
+}
+#banner
+{
+    background-image: url(../Assign4Images/home.jpg);
+    background-size:auto;
+    background-repeat:no-repeat;
+    width: 900px;
+    height: 200px;
+    margin: auto;
+    font-size: 82px;
+    color:#034B77;
+    text-align: right;
+    text-shadow: 3px 3px #C0C0C0;
+}
+#menu
+{
+    width: 900px;
+    height: 40px;
+    margin: auto;
+    font-size:20px;
+    background-color:#0072BB;
+    color:#FFFFFF;
+    padding-left:20px;
+    vertical-align:middle;
+}
+#menu a{
+    color:#FFFFFF;
+}
+#content_area1
+{
+    float: left;
+    width: 900px;
+    margin: 10px 40px 20px 40px;
+    padding: 10px;
+    line-height: 30px;
+}
+        #Selectperiod {
+            width: 125px;
+        }
+        #TextboxLoanAmt{
+            background-color:#CCCCCC;
+        }
+        #TextboxPayment{
+            background-color:#CCCCCC;
+        }
+        #ButtonCalculate{
+            width:100px;
+        }
+        #ButtonClear{
+            width:100px;
+        }
